@@ -1,0 +1,64 @@
+# ----------------------
+# 🔥 General Ignored Files
+# ----------------------
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.old
+*.backup
+.vscode/
+.idea/
+node_modules/
+.env
+.env.local
+*.pid
+logs/
+debug.log
+
+# ----------------------
+# 🚀 Backend (Flask) Ignored Files
+# ----------------------
+backend/venv/
+backend/__pycache__/
+backend/*.sqlite3
+backend/instance/
+backend/*.db
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.flaskenv
+backend/coverage/
+backend/Pipfile
+backend/Pipfile.lock
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+
+# ----------------------
+# 🎨 Frontend (Next.js) Ignored Files
+# ----------------------
+elephant/.next/
+elephant/out/
+elephant/dist/
+elephant/build/
+elephant/node_modules/
+elephant/npm-debug.log*
+elephant/yarn-debug.log*
+elephant/yarn-error.log*
+elephant/package-lock.json
+elephant/pnpm-lock.yaml
+elephant/.docusaurus/
+elephant/.cache/
+elephant/.next/cache/
+
+# Ignore environment variables
+elephant/.env
+elephant/.env.local
+elephant/.env.development
+elephant/.env.production
+elephant/.env.test
+elephant/now.json
